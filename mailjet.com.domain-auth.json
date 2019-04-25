@@ -9,11 +9,10 @@
    "variableDescription":"",
    "records":[
       {
-         "type": "TXT",
+         "type": "SPFM",
          "host": "@",
-         "data": "v=spf1%spftxt%",
-         "ttl": "3600"
-       },
+         "spfRules": "include:spf.mailjet.com"
+      },
       {
          "type": "TXT",
          "host": "mailjet._domainkey",
